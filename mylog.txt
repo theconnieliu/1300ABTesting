@@ -1,0 +1,59 @@
+2020-10-13T23:41:44.511914+00:00 app[api]: Release v1 created by user connie_liu1@brown.edu
+2020-10-13T23:41:44.511914+00:00 app[api]: Initial release by user connie_liu1@brown.edu
+2020-10-13T23:41:44.620216+00:00 app[api]: Enable Logplex by user connie_liu1@brown.edu
+2020-10-13T23:41:44.620216+00:00 app[api]: Release v2 created by user connie_liu1@brown.edu
+2020-10-13T23:45:09.000000+00:00 app[api]: Build started by user connie_liu1@brown.edu
+2020-10-13T23:45:42.478239+00:00 app[api]: Deploy f965b66e by user connie_liu1@brown.edu
+2020-10-13T23:45:42.478239+00:00 app[api]: Release v3 created by user connie_liu1@brown.edu
+2020-10-13T23:45:42.495637+00:00 app[api]: Scaled to web@1:Free by user connie_liu1@brown.edu
+2020-10-13T23:45:47.193030+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-13T23:45:50.629327+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-13T23:45:50.635412+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-13T23:45:50.635681+00:00 app[web.1]: * Environment: production
+2020-10-13T23:45:50.635826+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-13T23:45:50.635929+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T23:45:50.636008+00:00 app[web.1]: * Debug mode: on
+2020-10-13T23:45:50.647088+00:00 app[web.1]: * Running on http://0.0.0.0:58565/ (Press CTRL+C to quit)
+2020-10-13T23:45:50.648505+00:00 app[web.1]: * Restarting with stat
+2020-10-13T23:45:51.103048+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-13T23:45:51.122883+00:00 app[web.1]: * Debugger is active!
+2020-10-13T23:45:51.122885+00:00 app[web.1]: * Debugger PIN: 338-229-462
+2020-10-13T23:45:51.700281+00:00 heroku[web.1]: State changed from starting to up
+2020-10-13T23:45:52.000000+00:00 app[api]: Build succeeded
+2020-10-13T23:46:17.691439+00:00 heroku[router]: at=info method=GET path="/" host=cryptic-ocean-12798.herokuapp.com request_id=bbe74976-4382-4272-9251-ec6bc9c1ae19 fwd="138.16.109.70" dyno=web.1 connect=0ms service=30ms status=200 bytes=8883 protocol=https
+2020-10-13T23:46:17.695372+00:00 app[web.1]: 10.11.215.82 - - [13/Oct/2020 23:46:17] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.809267+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=cryptic-ocean-12798.herokuapp.com request_id=ec57b11c-0cc8-4861-9edc-4a1dd501d423 fwd="138.16.109.70" dyno=web.1 connect=1ms service=23ms status=200 bytes=1311 protocol=https
+2020-10-13T23:46:17.810551+00:00 app[web.1]: 10.11.215.82 - - [13/Oct/2020 23:46:17] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.819789+00:00 app[web.1]: 10.11.226.104 - - [13/Oct/2020 23:46:17] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.837844+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:17] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.839404+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=cryptic-ocean-12798.herokuapp.com request_id=ccbac259-df26-4e48-a7f4-ca66a3512f44 fwd="138.16.109.70" dyno=web.1 connect=0ms service=44ms status=200 bytes=243856 protocol=https
+2020-10-13T23:46:17.844650+00:00 app[web.1]: 10.7.242.21 - - [13/Oct/2020 23:46:17] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.853893+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=cryptic-ocean-12798.herokuapp.com request_id=a0ab7d9f-4825-47fb-9640-8ac4e672339c fwd="138.16.109.70" dyno=web.1 connect=1ms service=21ms status=200 bytes=132444 protocol=https
+2020-10-13T23:46:17.854641+00:00 app[web.1]: 10.7.164.30 - - [13/Oct/2020 23:46:17] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-13T23:46:17.874869+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=cryptic-ocean-12798.herokuapp.com request_id=0b1616a4-f2c4-46ac-a231-8925212ec008 fwd="138.16.109.70" dyno=web.1 connect=1ms service=40ms status=200 bytes=160216 protocol=https
+2020-10-13T23:46:17.891365+00:00 heroku[router]: at=info method=POST path="/data" host=cryptic-ocean-12798.herokuapp.com request_id=a2976b11-823a-454a-a7e8-6a7347deb264 fwd="138.16.109.70" dyno=web.1 connect=0ms service=4ms status=200 bytes=155 protocol=https
+2020-10-13T23:46:17.892803+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=cryptic-ocean-12798.herokuapp.com request_id=4fe34856-1b0c-479d-9a43-a531f47e2b99 fwd="138.16.109.70" dyno=web.1 connect=1ms service=52ms status=200 bytes=618300 protocol=https
+2020-10-13T23:46:17.893889+00:00 app[web.1]: AB_TESTING: A 1602632777866 0 0 eoxqrurhxb
+2020-10-13T23:46:17.894882+00:00 app[web.1]: 10.11.215.82 - - [13/Oct/2020 23:46:17] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:46:18.007531+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-13T23:46:18.015232+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=cryptic-ocean-12798.herokuapp.com request_id=a5d85209-bfd7-44a0-acfe-4edbab847c56 fwd="138.16.109.70" dyno=web.1 connect=1ms service=4ms status=404 bytes=394 protocol=https
+2020-10-13T23:46:24.788087+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:24] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:46:24.789240+00:00 heroku[router]: at=info method=GET path="/" host=cryptic-ocean-12798.herokuapp.com request_id=26dbcc09-f854-400d-93dd-07c8651fbb79 fwd="138.16.109.70" dyno=web.1 connect=1ms service=10ms status=200 bytes=8883 protocol=https
+2020-10-13T23:46:24.862013+00:00 app[web.1]: AB_TESTING: A 1602632784832 0 0 eoxqrurhxb
+2020-10-13T23:46:24.867375+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:24] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:46:24.868598+00:00 heroku[router]: at=info method=POST path="/data" host=cryptic-ocean-12798.herokuapp.com request_id=b1381780-6ed9-430e-8cf7-4f65e8be5384 fwd="138.16.109.70" dyno=web.1 connect=2ms service=8ms status=200 bytes=155 protocol=https
+2020-10-13T23:46:26.580478+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:26] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:46:26.582281+00:00 heroku[router]: at=info method=GET path="/" host=cryptic-ocean-12798.herokuapp.com request_id=2f92e899-2f4c-45f6-875e-5bf7edde097b fwd="138.16.109.70" dyno=web.1 connect=1ms service=5ms status=200 bytes=8883 protocol=https
+2020-10-13T23:46:26.651200+00:00 app[web.1]: AB_TESTING: A 1602632786620 0 0 eoxqrurhxb
+2020-10-13T23:46:26.652093+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:26] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:46:26.657949+00:00 heroku[router]: at=info method=POST path="/data" host=cryptic-ocean-12798.herokuapp.com request_id=f0c48c3b-f052-4240-a9f5-e8691f10755a fwd="138.16.109.70" dyno=web.1 connect=1ms service=10ms status=200 bytes=155 protocol=https
+2020-10-13T23:46:28.760631+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:28] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:46:28.761991+00:00 heroku[router]: at=info method=GET path="/" host=cryptic-ocean-12798.herokuapp.com request_id=c4bf7f46-9115-4e96-ad73-8ddb2a439e32 fwd="138.16.109.70" dyno=web.1 connect=10ms service=11ms status=200 bytes=8883 protocol=https
+2020-10-13T23:46:28.852134+00:00 app[web.1]: AB_TESTING: A 1602632788797 0 0 eoxqrurhxb
+2020-10-13T23:46:28.853105+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:28] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:46:28.854982+00:00 heroku[router]: at=info method=POST path="/data" host=cryptic-ocean-12798.herokuapp.com request_id=b60253ab-bae5-48df-afef-a764ccec7b8b fwd="138.16.109.70" dyno=web.1 connect=11ms service=19ms status=200 bytes=155 protocol=https
+2020-10-13T23:46:29.977502+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:29] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-13T23:46:29.978671+00:00 heroku[router]: at=info method=GET path="/" host=cryptic-ocean-12798.herokuapp.com request_id=233942f9-254c-4881-9a0e-f032e3cfa0e8 fwd="138.16.109.70" dyno=web.1 connect=1ms service=8ms status=200 bytes=9183 protocol=https
+2020-10-13T23:46:30.060242+00:00 app[web.1]: AB_TESTING: B 1602632790024 0 0 eoxqrurhxb
+2020-10-13T23:46:30.061849+00:00 app[web.1]: 10.9.251.250 - - [13/Oct/2020 23:46:30] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-13T23:46:30.065772+00:00 heroku[router]: at=info method=POST path="/data" host=cryptic-ocean-12798.herokuapp.com request_id=35641164-da50-45d6-8d50-015a3a706273 fwd="138.16.109.70" dyno=web.1 connect=1ms service=16ms status=200 bytes=155 protocol=https
